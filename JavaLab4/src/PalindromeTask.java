@@ -1,4 +1,4 @@
-﻿public class PalindromeTask{
+public class PalindromeTask{
     public static String findLongestPalindrome(String text){
         String startLength;
         for (int size = text.length(); size > 0; size--) {
@@ -19,3 +19,4 @@
         return true;
     }
 }
+
